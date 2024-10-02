@@ -1,0 +1,20 @@
+{
+ "inlayHint.enable": false,
+ "coc.preferences.jumpCommand": "vsplit",
+ "diagnostic.refreshOnInsertMode": true,
+ "pyright.enable": true,
+ "python.analysis.diagnosticSeverityOverrides":{
+     "reportPrivateImportUsage": "none",
+     "reportGeneralTypeIssues": "none",
+     "reportOptionalSubscript": "none",
+     "reportOptionalMemberAccess": "none",
+     "reportArgumentType":"none",
+     "reportCallIssue":"none",
+     "reportIndexIssue":"none",
+     "reportAssignmentType": "none",
+     "reportIncompatibleMethodOverride": "none",
+     "reportAttributeAccessIssue": "none",
+     "reportPossiblyUnboundVariable": "none",
+     "reportOperatorIssue": "none",
+ }
+}
