@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/henry/.vim/plugged/markdown-preview.vim/autoload/server/server.py", line 70, in _dealLog
+    ret = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/henry/.vim/plugged/markdown-preview.vim/autoload/server/server.py", line 104, in dealSocket
+    data = WebSocket.recv(sock)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/.vim/plugged/markdown-preview.vim/autoload/server/server.py", line 251, in recv
+    length = ord(data[1]) & 127
+             ^^^^^^^^^^^^
+TypeError: ord() expected string of length 1, but int found
