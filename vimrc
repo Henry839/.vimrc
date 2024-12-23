@@ -22,6 +22,7 @@ set laststatus=2
 "set colorcolumn=0
 set backspace=indent,eol,start
 
+set noshowmode
 set hidden
 set cmdheight=1
 
@@ -42,7 +43,7 @@ set clipboard=unnamedplus
 
 
 
-set noerrorbells visualbell t_vb=
+"set noerrorbells visualbell t_vb=
 
 
 " opening .vimrc fast
@@ -97,7 +98,8 @@ tnoremap <leader>- <C-w>-<cr>
 
 " tagbar
 nmap <leader>8 :TagbarToggle<CR>
-
+" nerdtree
+nnoremap <leader>o :NERDTreeToggle<CR>
 
 
 " autocmd
@@ -149,11 +151,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'moll/vim-bbye'
-
-Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 call plug#end()
 
-" Airline theme
 let g:airline_theme='luna'
 "let g:airline_theme='onedark'
 
@@ -200,4 +199,4 @@ set updatetime=300
 set signcolumn=yes
 set pumheight=10
 
-
+ 
